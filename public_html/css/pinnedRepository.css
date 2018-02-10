@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2018, 8:20:14 PM
+    Author     : mahesh computer
+*/
+
+.pinned-repositories-container{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.sub-navbar{
+    background-color: #fff;
+    border-bottom: solid 1px #d1d5da;
+    top: 0px;
+    z-index: 1000;
+}
+.sub-menu-style{
+
+    margin-right: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+
+    text-align: center;
+    border-bottom: 2px solid transparent;
+}
+.sub-menu-style a{
+    color: #586069;
+}
+.sub-menu-style a .badge{
+    color: #586069;
+    padding: 2px 5px;
+    font-size: 12px;
+    background-color: rgba(27,31,35,0.08);
+}
+.active-menu{
+    font-weight: 600;
+    color: #24292e;
+    border-bottom: #e36209 !important;
+}
+.pinned-badge{
+    display: -webkit-box;
+    display: flex;
+    /*width: 405px;*/
+    /*padding: 16px;*/
+    padding: 1px;
+    /*    border: 1px #e1e4e8 solid !important;*/
+    border-radius: 3px;
+}
+
+.pinned-inner-wrapper{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    border: 1px #e1e4e8 solid !important;
+    margin: 4px;
+    padding: 14px;
+}
+.link-in-block{
+    color: #0366d6;
+    font-weight: 600 ;
+}
+.pinned-detail{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.pinned-badge .pinned-text{
+    flex: 1;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+.tag-container{
+    display: inline-block;
+}
+.bullet-icon.gray{
+    background: #586069 !important
+}
+.bullet-icon{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #e34c26;
+    display: inline-block;
+}
+
+

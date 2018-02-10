@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2018, 8:42:06 PM
+    Author     : mahesh computer
+*/
+
+.profile-picture-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-img{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 6px;
+}
+.profile-name{
+    padding: 16px 0 16px 0;
+    text-align: center;
+}
+.full-name{
+    font-size: 26px;
+    line-height: 30px;
+}
+.user-name{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #666;
+}
+.user-position{
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #6a737d;
+}
+.gridle-io{
+    font-weight: 600;
+    color: #24292e;
+    white-space: nowrap;
+}
+.report-container{
+    padding-bottom: 16px;
+}
+.small-link{
+    color: #586069;
+    font-size: 12px;
+}
+.user-email-detail{
+    padding: 16px 0 16px 0;
+}
