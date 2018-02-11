@@ -52,4 +52,5 @@ and open the template in the editor.
 }
 .user-email-detail{
     padding: 16px 0 16px 0;
+    border-top: 1px solid #eaecef;
 }
