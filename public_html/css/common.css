@@ -110,11 +110,14 @@ body{
     margin-right: 5px;
 }
 @media (max-width: 990px){
-     .left-body-menu-container .nav>li>a {
+    .left-body-menu-container .nav>li>a {
         padding: 10px 1px !important;
     }
 }
 @media  (max-width: 766px) {
+    .top-hear-menu ul {
+        display: block !important;
+    }
     .profile-img{
         width: 33%;
     }
@@ -144,7 +147,7 @@ body{
         font-size: 26px;
         font-weight: 600;
     }
-   
+
     .openNav{
         color: #fff;
         font-size: 20px;
