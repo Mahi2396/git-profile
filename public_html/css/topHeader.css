@@ -25,6 +25,7 @@ and open the template in the editor.
     align-items: center;
     display: flex;
 }
+
 .top-menu-style a{
     color: #fff;
     font-size: 16px;
@@ -45,6 +46,25 @@ and open the template in the editor.
     list-style-type: none;
 }
 .ul-menu-list li a{
+    text-decoration: none;
+    color: #fff;
+}
+.top-menu-container:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.top-sub-menu{
+    text-align: center;
+    padding: 5px;
+    
+    background: #1e2327;
+}
+.option-one{
+    padding: 5px;
+    margin-left: 5px;
+}
+.option-one a{
     text-decoration: none;
     color: #fff;
 }
