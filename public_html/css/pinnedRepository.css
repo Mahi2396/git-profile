@@ -39,7 +39,7 @@ and open the template in the editor.
 .active-menu{
     font-weight: 600;
     color: #24292e;
-    border-bottom: #e36209 !important;
+    border-bottom: 2px solid #e36209 !important;
 }
 .pinned-badge{
     display: -webkit-box;
