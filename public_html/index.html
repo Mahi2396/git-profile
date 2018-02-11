@@ -1,7 +1,7 @@
 <html>
     <head>
-        <title></title>
-        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <title>My Profile</title>
+        <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
         <script src="js/myApp.js" type="text/javascript"></script>
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
@@ -20,13 +20,26 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body class="body_wrapper">
+
+
+
         <!-- body section-->
-        <section class="body-container">
+        <section class="body-container" id="sideCanvas">
+
+            <div class="hidden-sm hidden-md visible-xs screen-menu">
+                 <span class="openNav pull-left">&#9776; open</span>
+                 <span class="nav-title">GitHub</span>
+            </div>
+
+
+
             <div class="col-md-12 header-menu">
-                <div class="container small-screen">
+<!--                <div class="openNav">&#9776; open</div>-->
+                <div class="top-menu-container">
                     <div class="top-hear-menu pull-left">
 
                         <ul class="nav navbar-nav">
+
                             <li class="top-menu-style">
                                 <a href="#">Features </a>
                             </li>
@@ -53,7 +66,6 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
             <div class="container">
 
@@ -273,7 +285,6 @@
             </div>
 
 
-        </section>>
-
+        </section> 
     </body>
 </html>

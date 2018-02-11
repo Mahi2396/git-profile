@@ -22,6 +22,10 @@ body{
     height: 100%;
     /*    background: #f9f9f9;*/
 }
+.top-menu-container{
+    width: 75%;
+    margin: auto;
+}
 .b-block{
     display: block;
 }
@@ -50,3 +54,88 @@ body{
     content: '';
 }
 
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#sideCanvas{
+    transition: margin-left .5s;
+}
+.top-hear-menu .nav>li>a:focus, .top-hear-menu .nav>li>a:hover {
+    
+    background-color: #3c3c3a  !important;
+}
+@media  (max-width: 766px) {
+    .top-menu-style a {
+        font-weight: 400 !important;
+    }
+    .dividerafter:after{
+        z-index: 1 !important;
+    }
+    .small-profile-container{
+         z-index: 111 !important;
+    }
+    .top-menu-container{
+        width: 100%;
+        padding-left: 16px;
+    }
+    .screen-menu{
+        background: #111;
+        text-align: center;
+        color: #fff;
+        padding: 14px 10px;
+    }
+    .left-container{
+        margin-top: 24px;
+    }
+    .nav-title{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .openNav{
+        color: #fff;
+        font-size: 20px;
+    }
+    .header-menu{
+        height: auto !important;
+        width: 100%;
+        display: none !important;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1006;
+    }
+    .header-menu.active-menu{
+        display: block !important;
+    }
+}
