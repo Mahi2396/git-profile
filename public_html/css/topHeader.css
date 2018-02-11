@@ -16,7 +16,10 @@ and open the template in the editor.
     align-items: center;
     margin-bottom: 24px;
 }
-
+.top-menu-container {
+    display: flex;
+    align-items: center;
+}
 .small-profile-container{
     position: relative;
     top: 1px;
@@ -25,7 +28,15 @@ and open the template in the editor.
     align-items: center;
     display: flex;
 }
-
+.top-hear-menu ul{
+    display: flex;
+    align-items: center;
+}
+.gitHub-icon{
+    height: 40px;
+    width: 40px;
+    margin: 0 15px 0 15px;
+}
 .top-menu-style a{
     color: #fff;
     font-size: 16px;
@@ -36,8 +47,9 @@ and open the template in the editor.
     clear: both;
 }
 .right-top-header-menu .ul-menu-list li{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 0 15px 0;
+    float: left;
+    width: 121px;
 }
 .ul-menu-list{
     padding: 0;

@@ -132,3 +132,8 @@ and open the template in the editor.
     border: 1px #e1e4e8 solid;
     margin-bottom: 32px
 }
+.contribustion-title.margin-bottom:after {
+    content: '';
+    display: table;
+    clear: both;
+}

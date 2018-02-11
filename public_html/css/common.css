@@ -25,6 +25,7 @@ body{
 .top-menu-container{
     width: 75%;
     margin: auto;
+    justify-content: space-between;
 }
 .b-block{
     display: block;
