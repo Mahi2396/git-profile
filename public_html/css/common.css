@@ -97,6 +97,9 @@ body{
     background-color: #3c3c3a  !important;
 }
 @media  (max-width: 766px) {
+    .profile-img{
+        width: 33%;
+    }
     .top-menu-style a {
         font-weight: 400 !important;
     }
